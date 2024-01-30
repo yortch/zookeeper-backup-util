@@ -338,8 +338,7 @@ class Shell(XCmd):
         * recursive: recursively set the acls on the children
 
 \x1b[1mEXAMPLES\x1b[0m
-        > set_acls /some/path 'world:anyone:r digest:user:aRxISyaKnTP2+OZ9OmQLkq04bvo=:cdrwa'
-        > set_acls /some/path 'world:anyone:r username_password:user:p@ass0rd:cdrwa'
+        > set_acls /some/path 'world:anyone:r digest:user:hashvalue'
         > set_acls /path 'world:anyone:r' true
 
         """
